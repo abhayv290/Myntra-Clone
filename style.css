@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    /* background:beige; */
+
+}
+header{
+    /* height: 20vh; */
+    width: 100%;
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}    
+
+nav ul{
+    display: flex;
+    padding: 3vh;
+   
+    background: white;
+    
+}
+
+nav ul li {
+    background: white;
+    list-style: none;
+    margin: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder ;
+    font-size: 0.8em; 
+   
+}
+#inp{
+    background: #f3f6f7;
+    width: 22rem;
+    height: 7vh;
+    border: none;
+    margin-left: 5rem;
+}
+.inp{
+    background: white;
+    display:flex;
+    align-items: center;
+}
+#grad{
+    height: 2vh;
+    background: linear-gradient(0180deg,rgb(233, 229, 229),transparent);
+}
+.right{
+   display: flex;
+   
+   
+   margin: 0 2rem;
+}
+.right h4{
+    margin: 0.7rem;
+    background: white;
+    font-size: small;
+  }
+  .heading{
+    margin-top: 15vh;
+   margin-bottom: 10vh;
+}
+  
+.cardcontainer{
+    display: flex;
+}
+
+footer{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color:rgb(240, 240, 240);
+}
+.leftf{
+    margin:20vh 5vw  20vh 10vh;
+}
+.leftf h1{
+    font-size: large;
+}
+.leftf h6{
+    color: grey;
+    font-size: small;
+}
+.middle card{
+    display: inline;
+}
+.social{
+    display: inline-flex;
+    margin: 5px;
+}
+.social img{
+    margin: 10px;
+}
+ @media only screen and (max-width: 1000px) {
+    #inp{
+        
+        width: 15rem;
+        height: 7vh;
+        border: none;
+        margin-left: 2rem;
+    }
+    .right h4{
+        margin: 0.3rem;
+       font-size: 1em;
+      
+      }
+  }
+
+@media  screen and (max-width:500px) {
+    
+}
+  
+
+/* For hover effects */
+/* 
+
+span{
+    background:#F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -80px;
+    left:-30px;
+    display:none;
+    padding:0 20px;
+    
+}
+span:after{
+    content:'';
+    position:absolute;
+    bottom:-10px; 
+    width:10px;
+    height:10px;
+    border-bottom:5px solid #dfdfdf;
+    border-right:5px solid #dfdfdf;
+    background:#f8f8f8;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+#pr span{
+   visibibi
+}
+#pr:hover span{
+    display:block;
+} 
+*/
+#pr span {
+   display: none;
+}
+#pr span:hover{
+    visibility: visible;
+}

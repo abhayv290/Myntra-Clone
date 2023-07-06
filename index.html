@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra-clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+            <a href="index.html"> <img src="https://images.indianexpress.com/2021/01/myntra.png"  height="50px" alt=""></a>
+                <li>MEN</li>
+                <li>WOMEN</li>
+                <li>KIDS</li>
+                <li>HOME & LIVING</li>
+                <li>BEAUTY</li>
+                <LI>STUDIO<sup style="color: rgb(221, 60, 114); background: white;"> NEW </sup></LI>
+                <div class="inp"><input type="text" name="search" id="inp"
+                        placeholder="🔍 Search for Products,Brands and more"></div>
+                <div id="slide"></div>
+                <div class="right">
+                    <h4 id="pr">Profile<span>some text here ?</span></h4>
+                    <h4>Wishlist</h4>
+                    <h4>Bag</h4>
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="grad"></div>
+
+    <div class="sale">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators nobg">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/4/010a905b-66f1-4980-8ddf-f15223db62211688474900828-Wishlist-Now_DK.jpg"
+                        height="400px" ; alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.26fa8cc11ae2fda8aa55a93f587a5ac2?rik=8tZ8%2fYVmG4g%2fHA&riu=http%3a%2f%2fg-ecx.images-amazon.com%2fimages%2fG%2f31%2fimg16%2fmen-apparel%2fBrand-Day%2fDesktop._V508647874_.jpg&ehk=GZrV8hEdHj7czJDCpGwnUE%2f56uVOt8ZY%2brpTI3i4Yrk%3d&risl=&pid=ImgRaw&r=0"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/28/84b6a214-9eb3-49eb-9f9d-72cec56ec5d71659019908592-Indian-Wear_DK--1-.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="heading">
+            <h1>DEAL OF THE DAY</h1>
+        </div>
+
+        <div class="cardcontainer">
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/17/49939a83-5bf1-4c78-b55d-40d7545f843e1660744474034-Kurtas--4-.jpg"
+                    class="card-img-top" alt="Kurtas">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/17/948bd0a5-5b50-4b1e-93cc-234a9be8cfe11660744976622-Accessories--2-.jpg"
+                    class="card-img-top" alt="Accessories">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/17/ca8aa842-a6ed-4c53-b85a-5d7551a650121660744817501-Work-Ready-Shoes--1-.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/17/d5f885c5-4a54-4634-81da-6333aa51c1a11660744537981-Dresses--13-.jpg"
+                    class="card-img-top" alt="Dresses">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/17/0e56c483-33e8-4ea5-bae0-96020b7b31401660744930158-Dinnerware---Kitchenware.jpg"
+                    class="card-img-top" alt="Kitchenware">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_122,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/17/ffa236ca-da08-4fb8-bec3-9b4950c943851660745008808-KAMA.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+
+        </div>
+        <div class="heading">
+            <h1>TOP PICKS</h1>
+        </div>
+
+        <div class="cardcontainer">
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/062cea23-9a6a-44b9-bdd4-87cae6a462311645602543339-Kurta-sets.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/8d65d400-decd-4f42-902c-a40350a16ed11645602543346-Kurtas.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/82a9be01-3032-4725-9500-bcc94366b7931645602543399-Mens-Shirts.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/c6b09c0f-5c57-472c-a3fc-854ec506a90e1645602543387-Men-T-shirt.jpg"
+                    class="card-img-top" alt="Dresses">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/f08e2bac-9bed-4f87-b022-0dce8defeded1645602543380-Men-Trousers.jpg"
+                    class="card-img-top" alt="Kitchenware">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/398ee53b-5899-4a9a-9d0b-b35d60c01cb41645602543325-Dresses.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+
+        </div>
+
+        <div class="heading">
+            <h1>DEALS ON TOP BRANDS</h1>
+        </div>
+
+        <div class="cardcontainer">
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/3/f0dc0024-a8d3-4aec-9e1b-d9b6873b52d51599144996663-Crocs.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/85d5e2e1-fa21-43b0-a352-438e15f1006e1598892141455-Nike.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/8238147e-a86e-4fe4-a830-ab5c2c49beba1598892141840-W.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/10/7/99f75f40-4d3f-4049-87da-be2662359aca1602087172072-sangriawomen.jpg"
+                    class="card-img-top" alt="Dresses">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/4/e6c7a718-acc0-4aa6-b04c-470ab139d66c1599230080722-F21--4-.jpg"
+                    class="card-img-top" alt="Kitchenware">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/9/1/08f15f56-156e-45c8-b0bc-7aecd0b122431598970514602-Veromoda.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/10/7/ff1358d9-6c6f-4fef-b169-d2875d43292c1602086685210-mhmen.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/26/d1fab403-7742-4a91-a781-2e36bea65a8a1598445950683-Men-s-Apparel---Roadster.png"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/9/5a5a162e-c4ad-4497-b995-a3c077d25df71596975348916-Women-s-Ethnic-Wear_Vishudh.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2020/10/7/99f75f40-4d3f-4049-87da-be2662359aca1602087172072-sangriawomen.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/ee953e28-7ca8-4e08-a6a9-c51c98f823411598892141010-BIBA.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+
+
+        </div>
+
+        <div class="heading">
+            <h1>BEST BUYS</h1>
+        </div>
+
+        <div class="cardcontainer">
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/420ebd43-1270-4954-bad6-e9e50b52384d1645602339422-Heels.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/32f343c6-74e1-45c3-9923-8e161b484a641645602339538-Tops.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/1908b009-5fed-4681-add0-62c8a838b72e1645602339504-Shorts.jpg"
+                    class="card-img-top" alt="Shoes">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/4d7c5595-b7be-42a4-8640-d66d65bd0a2d1645602339441-Innerwear.jpg"
+                    class="card-img-top" alt="Dresses">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/1cde2cbb-f762-40a4-bdc1-eadfb7616d841645602339410-Formal-Shoes.jpg"
+                    class="card-img-top" alt="Kitchenware">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/907cd30b-caa9-4030-9e6f-c015cfbb9ffa1645602339382-Belts-_-Wallets.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/9fb1cb10-a734-4457-9f59-58abc3bab3631645602339477-Makeup-Essentials.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/907cd30b-caa9-4030-9e6f-c015cfbb9ffa1645602339382-Belts-_-Wallets.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/6b063e28-1fe4-410c-852b-a932a2c7252d1645602339462-Lingerie.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/9fb1cb10-a734-4457-9f59-58abc3bab3631645602339477-Makeup-Essentials.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+            <div class="card" style="width: 12rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_102,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/23/e18662fa-fe65-437b-b385-71b31cd10f021645602339470-Loungewear.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+
+
+        </div>
+        <div class="heading">
+            <h1>BRANDS AT SLASHED PRIZE</h1>
+        </div>
+
+        <div class="cardcontainer">
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_116,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/10/8cd7ec33-78fe-4b40-802d-365238b1376e1644475927229-Sangria.jpg"
+                    class="card-img-top" alt="">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/8/5809282f-372d-4881-a8dc-95d5958a86be1644338988944-Roadster_HP.jpg"
+                    class="card-img-top" alt="">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/10/e8546602-b217-45b0-a2d4-9469ba59938f1644475927176-Chemistry.jpg"
+                    class="card-img-top" alt="">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/10/fa16e2c8-d5af-4d71-8dfb-14484fd0db811644475927213-Moda-Rapido_2.jpg"
+                    class="card-img-top" alt="">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/10/b55aac85-4eb7-44d0-94bb-5077e8da70001644475927183-House-of-Pataudi.jpg"
+                    class="card-img-top" alt="">
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/2/10/fdbf3336-1777-46fd-aff6-7786268bc0d71644475927169-Harvard.jpg"
+                    class="card-img-top" alt="beauty Products">
+            </div>
+        </div>
+
+        <div class="heading">
+            <h1 style="font-stretch: expanded;">GIFTING CARDS</h1>
+        </div>
+        <div class="cardcontainer">
+            <div class="card" style="width: 21rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2022/8/22/22b3c59a-fa16-434d-b2e1-d8779f1abe871661164884892-Gift-Card-Banner.png"
+                    class="card-img-top" alt="gifts cards">
+            </div>
+            <div class="card" style="width: 21rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/12/ef1e7c6b-bec4-471c-9c36-72fffd975c0c1636738225251-happy-wedding.jpg"
+                    class="card-img-top" alt="gifts cards">
+            </div>
+            <div class="card" style="width: 21rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/12/934a734c-ebb4-48c4-96d0-018e1e5eb7e21636738225215-milestones.jpg"
+                    class="card-img-top" alt="Gift cards">
+            </div>
+            <div class="card" style="width: 21rem;">
+                <img src="https://assets.myntassets.com/f_webp,w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2021/11/12/72f3fe20-f0a5-4894-852c-817b40b285291636738225244-happy-birthday.jpg"
+                    class="card-img-top" alt="gifts cards">
+            </div>
+
+    </main>
+    <footer>
+        <div class="leftf">
+            <h1>Online Shoping</h1>
+            <h6>Men</h6>
+            <h6>Women</h6>
+            <h6>Kids</h6>
+            <h6>Home and Decore</h6>
+            <h6>Beauty </h6>
+            <h6>Gift Cards</h6>
+        </div>
+        <div class="leftf">
+            <h1>Customer Policies</h1>
+            <h6>Customer Support</h6>
+            <h6>T & C</h6>
+            <h6>Terms of use </h6>
+            <h6>Track of order</h6>
+            <h6>Shipping </h6>
+            <h6>Cancelation</h6>
+        </div>
+        <div class="middle leftf">
+            <h1>Experience Myntra App on Phone</h1>
+            <div class="card" style="width: 5rem;">
+               
+                    <img src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+                        class="card-img-top" alt="gifts cards">
+                </div>
+            <div class="card" style="width: 5rem;">
+               
+                    <img src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
+                        class="card-img-top" alt="gifts cards">
+                </div>
+                <div class="social">
+                   <img src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png" alt="">
+                   <img src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png" alt="">
+                   <img src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png" alt="">
+                   <img src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png" alt="">
+                </div>
+            </div>
+            <div class="rightf leftf">
+<h6>Myntra-clone.com &copy All Right reserved</h6>
+<h6>100% Guarranted Products</h6>
+            </div>
+    </footer>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</html>
